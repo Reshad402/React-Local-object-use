@@ -1,4 +1,5 @@
 import React from 'react';
+import Cosmetic from '../Cosmetic/Cosmetic';
 
     const Cosmetics = () => {
         const cosmetics = [
@@ -14,11 +15,13 @@ import React from 'react';
             <h1>Welcome to the cosmetic store</h1>
            {
                      // cosmetics.map((cosmetic) => console.log(cosmetic))
-                cosmetics.map((cosmetic) => 
-                    <Cosmetics key={cosmetic.id}
-                    // !Every Cosmetic er modde akta id ase 
-                    ></Cosmetics>)
-
+                cosmetics.map((cosmetic) =><Cosmetic
+                    singleObject = {cosmetic}   //!All properties are stored it singleObject
+                                // ! For unique keys
+                        key = {cosmetic.id}
+                    >
+                    {/* Ai khane props name ta cosmetic */}
+                </Cosmetic>)
            }
 
         </div>
