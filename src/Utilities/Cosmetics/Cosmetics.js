@@ -3,12 +3,42 @@ import Cosmetic from '../Cosmetic/Cosmetic';
 
     const Cosmetics = () => {
         const cosmetics = [
-            {id:1,name:'Apple',price:150},
-            {id:2,name:'Orange',price:200},
-            {id:3,name:'Duck',price:300},
-            {id:4,name:'Hen',price:400},
-            {id:5,name:'Beef',price:800}
-        ]
+            {
+              "id": "635d3ea0ceadde4412472f94",
+              "price": 30,
+              "name": "Eleanor Richard"
+            },
+            {
+              "id": "635d3ea0756268eb80d7f20e",
+              "price": 31,
+              "name": "Durham Villarreal"
+            },
+            {
+              "id": "635d3ea03c2904c34d7ee6ed",
+              "price": 28,
+              "name": "Geraldine Velasquez"
+            },
+            {
+              "id": "635d3ea0baebfa5fb79050ff",
+              "price": 22,
+              "name": "Casey Donovan"
+            },
+            {
+              "id": "635d3ea0c10b4351cd69a766",
+              "price": 22,
+              "name": "Sanders Marquez"
+            },
+            {
+              "id": "635d3ea0b0d6dfba54442b55",
+              "price": 36,
+              "name": "Chris Watson"
+            },
+            {
+              "id": "635d3ea0a6f637605341f40e",
+              "price": 39,
+              "name": "Hickman Mckee"
+            }
+          ]
         
     return (
         <div>
