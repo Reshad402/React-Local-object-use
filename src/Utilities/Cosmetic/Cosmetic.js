@@ -1,13 +1,19 @@
 import React from 'react';
+import { addToLS } from '../../Fakeid/fakestorage';
+
+
 
 const Cosmetic = (props) => {
     const {name,price,id} = props.singleObject;
 
     const addToCart = (id) =>{
-        console.log('Item added',id)
+        // console.log('Item added',id)
+        addToLS(id)
+        
     }
     const addToName = (name) =>{
         console.log('Item added',name)
+        
     }
     return (
         <div style={{border:'2px solid yellow',margin:'10px',borderRadius:'10px'}}>
