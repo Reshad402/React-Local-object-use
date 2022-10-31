@@ -1,36 +1,36 @@
 [
     {
-      "id": "1",
+      "id": "One",
       "price": 30,
       "name": "Eleanor Richard"
     },
     {
-      "id": "2",
+      "id": "Two",
       "price": 31,
       "name": "Durham Villarreal"
     },
     {
-      "id": "3",
+      "id": "Three",
       "price": 28,
       "name": "Geraldine Velasquez"
     },
     {
-      "id": "4",
+      "id": "Four",
       "price": 22,
       "name": "Casey Donovan"
     },
     {
-      "id": "5",
+      "id": "Five",
       "price": 22,
       "name": "Sanders Marquez"
     },
     {
-      "id": "6",
+      "id": "Six",
       "price": 36,
       "name": "Chris Watson"
     },
     {
-      "id": "7",
+      "id": "Seven",
       "price": 39,
       "name": "Hickman Mckee"
     }
